@@ -1,0 +1,13 @@
+[package]
+name = "directory-analyzer"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+anyhow = "1.0.99"
+chrono = "0.4.41"
+clap = {version = "4.5", features = ["derive"]}
+colored = "3.0.0"
+csv = "1.3.1"
+indicatif = "0.18.0"
+walkdir = "2.5.0"
